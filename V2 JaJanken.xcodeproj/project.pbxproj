@@ -11,6 +11,9 @@
 		B66AA52A29EB613B00EE4309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA52929EB613B00EE4309 /* ContentView.swift */; };
 		B66AA52C29EB613E00EE4309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66AA52B29EB613E00EE4309 /* Assets.xcassets */; };
 		B66AA52F29EB613E00EE4309 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66AA52E29EB613E00EE4309 /* Preview Assets.xcassets */; };
+		B66AA53629EB633600EE4309 /* Camera Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53529EB633600EE4309 /* Camera Preview.swift */; };
+		B66AA53829EB636000EE4309 /* Camera View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53729EB636000EE4309 /* Camera View.swift */; };
+		B66AA53A29EB63A100EE4309 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53929EB63A100EE4309 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		B66AA52929EB613B00EE4309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B66AA52B29EB613E00EE4309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66AA52E29EB613E00EE4309 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B66AA53529EB633600EE4309 /* Camera Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera Preview.swift"; sourceTree = "<group>"; };
+		B66AA53729EB636000EE4309 /* Camera View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera View.swift"; sourceTree = "<group>"; };
+		B66AA53929EB63A100EE4309 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				B66AA52929EB613B00EE4309 /* ContentView.swift */,
 				B66AA52B29EB613E00EE4309 /* Assets.xcassets */,
 				B66AA52D29EB613E00EE4309 /* Preview Content */,
+				B66AA53529EB633600EE4309 /* Camera Preview.swift */,
+				B66AA53729EB636000EE4309 /* Camera View.swift */,
+				B66AA53929EB63A100EE4309 /* CameraViewController.swift */,
 			);
 			path = "V2 JaJanken";
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66AA53829EB636000EE4309 /* Camera View.swift in Sources */,
+				B66AA53A29EB63A100EE4309 /* CameraViewController.swift in Sources */,
+				B66AA53629EB633600EE4309 /* Camera Preview.swift in Sources */,
 				B66AA52A29EB613B00EE4309 /* ContentView.swift in Sources */,
 				B66AA52829EB613B00EE4309 /* V2_JaJankenApp.swift in Sources */,
 			);
@@ -270,6 +282,7 @@
 				DEVELOPMENT_TEAM = 5UJL58M7XY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need Camera Permission So I can see for you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_TEAM = 5UJL58M7XY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need Camera Permission So I can see for you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
