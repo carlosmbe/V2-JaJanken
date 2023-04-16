@@ -14,6 +14,7 @@
 		B66AA53629EB633600EE4309 /* Camera Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53529EB633600EE4309 /* Camera Preview.swift */; };
 		B66AA53829EB636000EE4309 /* Camera View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53729EB636000EE4309 /* Camera View.swift */; };
 		B66AA53A29EB63A100EE4309 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53929EB63A100EE4309 /* CameraViewController.swift */; };
+		B66AA53C29EB734400EE4309 /* WalletObject.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B66AA53B29EB734400EE4309 /* WalletObject.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B66AA53529EB633600EE4309 /* Camera Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera Preview.swift"; sourceTree = "<group>"; };
 		B66AA53729EB636000EE4309 /* Camera View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera View.swift"; sourceTree = "<group>"; };
 		B66AA53929EB63A100EE4309 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B66AA53B29EB734400EE4309 /* WalletObject.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WalletObject.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				B66AA52729EB613B00EE4309 /* V2_JaJankenApp.swift */,
 				B66AA52929EB613B00EE4309 /* ContentView.swift */,
+				B66AA53B29EB734400EE4309 /* WalletObject.mlmodel */,
 				B66AA52B29EB613E00EE4309 /* Assets.xcassets */,
 				B66AA52D29EB613E00EE4309 /* Preview Content */,
 				B66AA53529EB633600EE4309 /* Camera Preview.swift */,
@@ -150,6 +153,7 @@
 				B66AA53A29EB63A100EE4309 /* CameraViewController.swift in Sources */,
 				B66AA53629EB633600EE4309 /* Camera Preview.swift in Sources */,
 				B66AA52A29EB613B00EE4309 /* ContentView.swift in Sources */,
+				B66AA53C29EB734400EE4309 /* WalletObject.mlmodel in Sources */,
 				B66AA52829EB613B00EE4309 /* V2_JaJankenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
