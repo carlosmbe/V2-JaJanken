@@ -3,7 +3,9 @@ HackKU23 Spice Boys New Project Idea - Helps people with visiblity challenges fi
 
 # Vision Mate
 
-Vision Mate is an open-source iOS app designed to assist people with visibility challenges in finding their wallets. The app uses machine learning and computer vision to detect and identify wallets within an image captured by the user's device camera. This project is the version 2 of JaJanken, with improved features and accuracy.
+Vision Mate is an open-source iOS app designed to assist people with visibility challenges in finding their wallets. The app uses machine learning and computer vision to detect and identify wallets within an image captured by the user's device camera. This project is the version 2 of JaJanken, our original project which was a American Sign Language Interpreter. Although functional and working. We were not happy with how the model was performing and due to the lack of time decided to pivot.
+
+https://github.com/carlosmbe/JaJanken
 
 # Features
 
