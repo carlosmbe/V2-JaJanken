@@ -124,7 +124,7 @@ final class CameraViewController: UIViewController {
             
             if !results.isEmpty{
                 if  results.first?.confidence ?? 0.0 > 0.8{
-                    //   AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
                     self.drawVisionRequestResults(results)
                     AudioServicesPlaySystemSound(1103)
                     print(results)
